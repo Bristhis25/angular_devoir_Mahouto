@@ -1,4 +1,11 @@
 # AgenceImmo
+
+## For M. DANDOY
+## Added features : Search bar (view in list post componement and html using FormsModule) 
+
+![image](https://github.com/Bristhis25/angular_devoir_Mahouto/blob/main/img/angular.png)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -23,9 +30,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
-
-## For M. DANDOY
-## Added features : Search bar (view in list post componement and html using FormsModule) 
-
-![image](https://github.com/Bristhis25/angular_devoir_Mahouto/blob/main/img/angular.png)
 
