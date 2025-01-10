@@ -1,0 +1,8 @@
+<article>
+  <h2>{{ postDetail?.title }}</h2>
+  <p>{{ postDetail?.body }}</p>
+  <p>Post ID :{{ postDetail?.id }}</p>
+  <p>userID : {{ postDetail?.userId }}</p>
+</article>
+
+<a role="button" [routerLink]="['/posts']">Retour</a>

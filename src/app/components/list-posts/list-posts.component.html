@@ -1,0 +1,22 @@
+<h2>List posts</h2>
+
+<div class="search-bar">
+  <input
+      type="text"
+      [(ngModel)]="searchText"
+      placeholder="Rechercher un post..."
+      class="form-control"
+  />
+</div>
+
+<ul>
+  <article *ngFor="let post of filteredPosts">
+    {{ post.title }}
+    <a [routerLink]="['/posts/' + post.id + '/detail']">Voir détail</a>
+  </article>
+</ul>
+
+<div *ngIf="filteredPosts.length === 0" class="no-results">
+  <p>Aucun post trouvé pour "{{ searchText }}".</p>
+</div>
+
